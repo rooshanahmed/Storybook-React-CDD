@@ -9,23 +9,23 @@ export default {
 export const btnLg = () => (
   <Button
     value={"Large Button"}
-    style={{ width: "250px", backgroundColor: "blue" }}
+    style={{ padding: "10px 100px", backgroundColor: "blue" }}
     onClick={() => alert("Clicked!!")}
   />
 );
 
 export const btnMed = () => (
-    <Button
-      value={"Medium Button"}
-      style={{ width: "150px", backgroundColor: "darkcyan" }}
-      onClick={() => alert("Clicked!!")}
-    />
+  <Button
+    value={"Medium Button"}
+    style={{ padding: "10px 50px", backgroundColor: "darkcyan" }}
+    onClick={() => alert("Clicked!!")}
+  />
 );
 
 export const btnSmall = () => (
-    <Button
-      value={"Small"}
-      style={{ width: "80px", backgroundColor: "darkgrey" }}
-      onClick={() => alert("Clicked!!")}
-    />
+  <Button
+    value={"Small"}
+    style={{ padding: "10px 20px", backgroundColor: "darkgrey" }}
+    onClick={() => alert("Clicked!!")}
+  />
 );
