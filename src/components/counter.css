@@ -1,15 +1,15 @@
 .btn-inc {
-    padding: 10px 25px;
-    background-color: teal;
-    margin: 5px;
-    color: white;
-    border-radius: 5px;
+  padding: 10px 25px;
+  background-color: teal;
+  margin: 5px;
+  color: white;
+  border-radius: 5px;
 }
 
 .btn-dec {
-    padding: 10px 25px;
-    background-color: darkcyan;
-    margin: 5px;
-    color: white;   
-    border-radius: 5px;
+  padding: 10px 25px;
+  background-color: darkcyan;
+  margin: 5px;
+  color: white;
+  border-radius: 5px;
 }
