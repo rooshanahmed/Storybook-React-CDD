@@ -9,7 +9,7 @@ export default {
 export const btnLg = () => (
   <Button
     value={"Large Button"}
-    style={{ padding: "10px 100px", backgroundColor: "blue" }}
+    style={{ padding: "10px 100px", backgroundColor: "blue", borderRadius: "20px", boxShadow: 'none' }}
     onClick={() => alert("Clicked!!")}
   />
 );
