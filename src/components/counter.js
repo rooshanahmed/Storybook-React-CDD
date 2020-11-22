@@ -3,8 +3,8 @@ import Text from "./text";
 import Button from "./button";
 import "./counter.css";
 
-const Counter = () => {
-  let [count, setCount] = useState(0);
+const Counter = ({ initialValue = 0 }) => {
+  let [count, setCount] = useState(initialValue);
 
   return (
     <div>
