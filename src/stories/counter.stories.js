@@ -6,3 +6,10 @@ export default {
     component: Counter
 }
 
+export const defaultCounter = () => (
+    <Counter />
+)
+
+export const defaultCounterValue10 = () => (
+    <Counter initialValue={10} />
+)
